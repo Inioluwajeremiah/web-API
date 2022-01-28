@@ -1,0 +1,14 @@
+Redirects to a Real URL
+---
+tags:
+  - Scholarship Posts
+parameters:
+  - in: path
+    name: app_short_url
+    required: true
+
+responses:
+  302:
+    description: Redirects permanently
+  404:
+    description: Record was not found
