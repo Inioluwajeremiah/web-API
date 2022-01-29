@@ -12,7 +12,7 @@ template = {
         "termsOfService": "",
         "version": "1.0"
     },
-    "host": "www.scholarshub.academy",  # overrides localhost:500
+    # "host": "www.scholarshub.academy",  # overrides localhost:500
     "basePath": "/api/v1",  # base bash for blueprint registration
     "schemes": [
         "http",
