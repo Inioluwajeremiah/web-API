@@ -1,0 +1,14 @@
+Scholarship Posts
+---
+tags:
+  - Scholarship Posts
+parameters:
+  - in: header
+    name: Authorization
+    required: true
+
+responses:
+  200:
+    description: Scholars posts
+  401:
+    description: Fails to get posts due to authentication error
